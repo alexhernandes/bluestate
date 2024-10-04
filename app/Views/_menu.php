@@ -6,13 +6,13 @@
                     <div class="topo__idioma">
                         <ul>
                             <li>
-                                <a href="<?php echo base_url(); ?>en"><?php echo lang('home.menu.english'); ?></a>
+                                <a href="<?php echo base_url(); ?>en"><?php echo lang('Home.menu.english'); ?></a>
                             </li>
                             <li>
-                                <a href="<?php echo base_url(); ?>pt"><?php echo lang('home.menu.portuguese'); ?></a>
+                                <a href="<?php echo base_url(); ?>pt"><?php echo lang('Home.menu.portuguese'); ?></a>
                             </li>
                             <li>
-                                <a href="<?php echo base_url(); ?>es"><?php echo lang('home.menu.spanish'); ?></a>
+                                <a href="<?php echo base_url(); ?>es"><?php echo lang('Home.menu.spanish'); ?></a>
                             </li>
                         </ul>
                     </div>
@@ -20,7 +20,7 @@
                 <div class="col-6 col-lg-4">
                     <div class="topo__logo">
                         <a href="<?php echo base_url(); ?>">
-                            <img src="<?php echo base_url(); ?>assets/img/logotipo.webp" width="110px">
+                            Testeeeeeeeeeeeeee
                         </a>
                     </div>
                 </div>
@@ -29,7 +29,7 @@
                         <ul>
                             <li>
                                 <a href="<?php echo base_url(); ?>account">
-                                    <?php echo lang('home.menu.account'); ?>
+                                    <?php echo lang('Home.menu.account'); ?>
                                 </a>
                             </li>
                         </ul>
