@@ -1,0 +1,409 @@
+INFO - 2024-09-27 15:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 15:35:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 15:36:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 15:36:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 15:36:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 15:36:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 15:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 15:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 15:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 15:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 15:40:05 --> ParseError: syntax error, unexpected token "return"
+[Method: POST, Route: checkout/]
+in APPPATH/Controllers/Checkout.php on line 19.
+ 1 SYSTEMPATH/Router/Router.php(563): CodeIgniter\Router\AutoRouter->getRoute('checkout/', 'POST')
+ 2 SYSTEMPATH/Router/Router.php(228): CodeIgniter\Router\Router->autoRoute('checkout/')
+ 3 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('checkout/')
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-27 15:40:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 15:40:17 --> Error: Call to undefined method CodeIgniter\HTTP\IncomingRequest::post()
+[Method: POST, Route: checkout/]
+in APPPATH/Controllers/Checkout.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-27 15:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 15:41:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 15:45:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 15:45:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 15:45:35 --> ParseError: syntax error, unexpected token "}"
+[Method: POST, Route: checkout/]
+in APPPATH/Controllers/Checkout.php on line 25.
+ 1 SYSTEMPATH/Router/Router.php(563): CodeIgniter\Router\AutoRouter->getRoute('checkout/', 'POST')
+ 2 SYSTEMPATH/Router/Router.php(228): CodeIgniter\Router\Router->autoRoute('checkout/')
+ 3 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('checkout/')
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-27 15:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 15:57:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 15:58:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 16:11:36 --> ErrorException: Cannot redeclare App\Controllers\Checkout::mercadopago()
+[Method: POST, Route: checkout/]
+in APPPATH/Controllers/Checkout.php on line 30.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-09-27 16:12:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 16:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 16:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 16:20:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 16:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 16:20:55 --> Stripe\Exception\AuthenticationException: Invalid API Key provided: seuchave***reta
+[Method: POST, Route: checkout/]
+in VENDORPATH/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38.
+ 1 VENDORPATH/stripe/stripe-php/lib/ApiRequestor.php(228): Stripe\Exception\ApiErrorException::factory('Invalid API Key provided: seuchave***reta', 401, '{
+  "error": {
+    "message": "Invalid API Key provided: seuchave***reta",
+    "type": "invalid_request_error"
+  }
+}
+', [...], Object(Stripe\Util\CaseInsensitiveArray), null)
+ 2 VENDORPATH/stripe/stripe-php/lib/ApiRequestor.php(187): Stripe\ApiRequestor::_specificAPIError('{
+  "error": {
+    "message": "Invalid API Key provided: seuchave***reta",
+    "type": "invalid_request_error"
+  }
+}
+', 401, Object(Stripe\Util\CaseInsensitiveArray), [...], [...])
+ 3 VENDORPATH/stripe/stripe-php/lib/ApiRequestor.php(577): Stripe\ApiRequestor->handleErrorResponse('{
+  "error": {
+    "message": "Invalid API Key provided: seuchave***reta",
+    "type": "invalid_request_error"
+  }
+}
+', 401, Object(Stripe\Util\CaseInsensitiveArray), [...])
+ 4 VENDORPATH/stripe/stripe-php/lib/ApiRequestor.php(135): Stripe\ApiRequestor->_interpretResponse('{
+  "error": {
+    "message": "Invalid API Key provided: seuchave***reta",
+    "type": "invalid_request_error"
+  }
+}
+', 401, Object(Stripe\Util\CaseInsensitiveArray))
+ 5 VENDORPATH/stripe/stripe-php/lib/ApiOperations/Request.php(109): Stripe\ApiRequestor->request('post', '/v1/checkout/sessions', [...], [], [])
+ 6 VENDORPATH/stripe/stripe-php/lib/Checkout/Session.php(133): Stripe\ApiResource::_staticRequest('post', '/v1/checkout/sessions', [...], null)
+ 7 APPPATH/Controllers/Checkout.php(56): Stripe\Checkout\Session::create([...])
+ 8 APPPATH/Controllers/Checkout.php(25): App\Controllers\Checkout->stripe()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Checkout->index()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-27 16:22:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 16:22:25 --> Stripe\Exception\AuthenticationException: Invalid API Key provided: seuchave***reta
+[Method: POST, Route: checkout/]
+in VENDORPATH/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38.
+ 1 VENDORPATH/stripe/stripe-php/lib/ApiRequestor.php(228): Stripe\Exception\ApiErrorException::factory('Invalid API Key provided: seuchave***reta', 401, '{
+  "error": {
+    "message": "Invalid API Key provided: seuchave***reta",
+    "type": "invalid_request_error"
+  }
+}
+', [...], Object(Stripe\Util\CaseInsensitiveArray), null)
+ 2 VENDORPATH/stripe/stripe-php/lib/ApiRequestor.php(187): Stripe\ApiRequestor::_specificAPIError('{
+  "error": {
+    "message": "Invalid API Key provided: seuchave***reta",
+    "type": "invalid_request_error"
+  }
+}
+', 401, Object(Stripe\Util\CaseInsensitiveArray), [...], [...])
+ 3 VENDORPATH/stripe/stripe-php/lib/ApiRequestor.php(577): Stripe\ApiRequestor->handleErrorResponse('{
+  "error": {
+    "message": "Invalid API Key provided: seuchave***reta",
+    "type": "invalid_request_error"
+  }
+}
+', 401, Object(Stripe\Util\CaseInsensitiveArray), [...])
+ 4 VENDORPATH/stripe/stripe-php/lib/ApiRequestor.php(135): Stripe\ApiRequestor->_interpretResponse('{
+  "error": {
+    "message": "Invalid API Key provided: seuchave***reta",
+    "type": "invalid_request_error"
+  }
+}
+', 401, Object(Stripe\Util\CaseInsensitiveArray))
+ 5 VENDORPATH/stripe/stripe-php/lib/ApiOperations/Request.php(109): Stripe\ApiRequestor->request('post', '/v1/checkout/sessions', [...], [], [])
+ 6 VENDORPATH/stripe/stripe-php/lib/Checkout/Session.php(133): Stripe\ApiResource::_staticRequest('post', '/v1/checkout/sessions', [...], null)
+ 7 APPPATH/Controllers/Checkout.php(57): Stripe\Checkout\Session::create([...])
+ 8 APPPATH/Controllers/Checkout.php(25): App\Controllers\Checkout->stripe()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Checkout->index()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-27 16:24:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 16:25:53 --> ParseError: syntax error, unexpected token "::"
+[Method: POST, Route: checkout/]
+in APPPATH/Controllers/Checkout.php on line 75.
+ 1 SYSTEMPATH/Router/Router.php(563): CodeIgniter\Router\AutoRouter->getRoute('checkout/', 'POST')
+ 2 SYSTEMPATH/Router/Router.php(228): CodeIgniter\Router\Router->autoRoute('checkout/')
+ 3 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('checkout/')
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-27 16:25:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 16:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 16:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 16:26:17 --> TypeError: App\Controllers\Checkout::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: POST, Route: checkout/]
+in APPPATH/Controllers/Checkout.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-27 16:26:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 16:26:46 --> TypeError: App\Controllers\Checkout::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: POST, Route: checkout/]
+in APPPATH/Controllers/Checkout.php on line 48.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-27 16:31:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 16:31:54 --> TypeError: App\Controllers\Checkout::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: POST, Route: checkout/]
+in APPPATH/Controllers/Checkout.php on line 48.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-27 16:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 16:32:18 --> Error: Class "MercadoPago\SDK" not found
+[Method: POST, Route: checkout/]
+in APPPATH/Controllers/Checkout.php on line 63.
+ 1 APPPATH/Controllers/Checkout.php(26): App\Controllers\Checkout->mercadopago()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Checkout->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-27 16:33:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 16:33:42 --> Error: Class "MercadoPago\SDK" not found
+[Method: POST, Route: checkout/]
+in APPPATH/Controllers/Checkout.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-27 16:37:42 --> ErrorException: require_once(/var/www/html/sistema-contador/app/vendor/autoload.php): Failed to open stream: No such file or directory
+[Method: POST, Route: checkout/]
+in APPPATH/Controllers/Checkout.php on line 5.
+ 1 APPPATH/Controllers/Checkout.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(/var/www/html/sistema-contador/app/vendor/autoload.php): Failed to open stream: No such file or directory', '/var/www/html/sistema-contador/app/Controllers/Checkout.php', 5)
+ 2 APPPATH/Controllers/Checkout.php(5): require_once()
+ 3 SYSTEMPATH/Router/AutoRouter.php(147): include_once('/var/www/html/sistema-contador/app/Controllers/Checkout.php')
+ 4 SYSTEMPATH/Router/Router.php(563): CodeIgniter\Router\AutoRouter->getRoute('checkout/', 'POST')
+ 5 SYSTEMPATH/Router/Router.php(228): CodeIgniter\Router\Router->autoRoute('checkout/')
+ 6 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('checkout/')
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-27 16:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 16:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 16:39:36 --> Error: Class "App\Controllers\MPRequestOptions" not found
+[Method: POST, Route: checkout/]
+in APPPATH/Controllers/Checkout.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-27 16:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 16:40:22 --> Error: Class "App\Controllers\MPRequestOptions" not found
+[Method: POST, Route: checkout/]
+in APPPATH/Controllers/Checkout.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-27 23:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 23:34:27 --> TypeError: App\Controllers\Checkout::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: POST, Route: checkout/]
+in APPPATH/Controllers/Checkout.php on line 48.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-27 23:41:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 23:41:11 --> TypeError: App\Controllers\Checkout::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: POST, Route: checkout/]
+in APPPATH/Controllers/Checkout.php on line 67.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-27 23:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 23:42:55 --> Error: Class "MercadoPago\SDK" not found
+[Method: POST, Route: checkout/]
+in APPPATH/Controllers/Checkout.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-27 23:43:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 23:43:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 23:43:40 --> Error: Class "MercadoPago\SDK" not found
+[Method: POST, Route: checkout/]
+in APPPATH/Controllers/Checkout.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-27 23:46:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 23:46:23 --> Error: Class "MercadoPago\SDK" not found
+[Method: POST, Route: checkout/]
+in APPPATH/Controllers/Checkout.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-27 23:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 23:47:12 --> Error: Class "MercadoPago\SDK" not found
+[Method: POST, Route: checkout/]
+in APPPATH/Controllers/Checkout.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-27 23:48:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 23:48:38 --> Error: Class "MercadoPago\Config\AccessToken" not found
+[Method: POST, Route: checkout/]
+in APPPATH/Controllers/Checkout.php on line 28.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-27 23:49:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 23:49:17 --> Error: Class "MercadoPago\Entity\Preference\Item" not found
+[Method: POST, Route: checkout/]
+in APPPATH/Controllers/Checkout.php on line 30.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-27 23:49:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 23:49:45 --> Error: Class "MercadoPago\Entity\Shared\Item" not found
+[Method: POST, Route: checkout/]
+in APPPATH/Controllers/Checkout.php on line 30.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-27 23:51:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 23:53:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 23:53:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 23:53:47 --> TypeError: App\Controllers\Checkout::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: POST, Route: checkout/]
+in APPPATH/Controllers/Checkout.php on line 85.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-27 23:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 23:53:49 --> TypeError: App\Controllers\Checkout::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: checkout/]
+in APPPATH/Controllers/Checkout.php on line 85.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-27 23:54:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 23:54:26 --> TypeError: App\Controllers\Checkout::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: POST, Route: checkout/]
+in APPPATH/Controllers/Checkout.php on line 87.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-27 23:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 23:54:57 --> TypeError: App\Controllers\Checkout::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: POST, Route: checkout/]
+in APPPATH/Controllers/Checkout.php on line 87.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-27 23:55:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 23:55:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 23:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 23:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 23:57:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 23:57:33 --> Error: Class "MercadoPago\Entity\Preference\Preference" not found
+[Method: GET, Route: checkout/]
+in APPPATH/Controllers/Checkout.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-27 23:58:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 23:58:50 --> TypeError: MercadoPago\Client\Preference\PreferenceClient::create(): Argument #1 ($request) must be of type array, stdClass given, called in /var/www/html/sistema-contador/app/Controllers/Checkout.php on line 46
+[Method: GET, Route: checkout/]
+in VENDORPATH/mercadopago/dx-php/src/MercadoPago/Client/Preference/PreferenceClient.php on line 38.
+ 1 APPPATH/Controllers/Checkout.php(46): MercadoPago\Client\Preference\PreferenceClient->create(Object(stdClass), Object(MercadoPago\Client\Common\RequestOptions))
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Checkout->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-27 23:59:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 23:59:16 --> Error: Class "MercadoPago\Entity\Preference\Preference" not found
+[Method: GET, Route: checkout/]
+in APPPATH/Controllers/Checkout.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

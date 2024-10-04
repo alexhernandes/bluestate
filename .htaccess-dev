@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# Redirecionamento de rank2gg.com para dev.rank2gg.com
+RewriteCond %{HTTP_HOST} ^rank2gg\.com$ [NC]
+RewriteRule ^(.*)$ https://dev.rank2gg.com/$1 [R=301,L]
+
+# Mantém a regra existente de redirecionamento para /public
+RewriteCond %{REQUEST_URI} !^/public/
+RewriteRule ^(.*)$ /public/$1 [L,QSA]

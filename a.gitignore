@@ -1,0 +1,13 @@
+# Enviroment
+.env
+.htaccess
+
+# Pasta publica de uploads
+public/assets/uploads/*
+
+# Pasta writable
+writable/cache/*
+writable/debugbar/*
+writable/logs/*
+writable/session/*
+writable/uploads/*

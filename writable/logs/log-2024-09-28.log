@@ -1,0 +1,487 @@
+INFO - 2024-09-28 00:05:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-28 00:05:55 --> Error: Class "App\Controllers\Item" not found
+[Method: GET, Route: checkout/]
+in APPPATH/Controllers/Checkout.php on line 30.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Checkout->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-28 02:02:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-28 02:02:43 --> [DEPRECATED] Creation of dynamic property MercadoPago\Resources\Preference::$financing_group is deprecated in VENDORPATH/mercadopago/dx-php/src/MercadoPago/Serialization/Serializer.php on line 44.
+ 1 VENDORPATH/mercadopago/dx-php/src/MercadoPago/Serialization/Serializer.php(18): MercadoPago\Serialization\Serializer::_deserializeFromJson('MercadoPago\\Resources\\Preference', [...])
+ 2 VENDORPATH/mercadopago/dx-php/src/MercadoPago/Client/Preference/PreferenceClient.php(41): MercadoPago\Serialization\Serializer::deserializeFromJson('MercadoPago\\Resources\\Preference', [...])
+ 3 APPPATH/Controllers/Checkout.php(29): MercadoPago\Client\Preference\PreferenceClient->create([...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Checkout->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-28 02:06:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-28 02:06:01 --> [DEPRECATED] Creation of dynamic property MercadoPago\Resources\Preference::$financing_group is deprecated in VENDORPATH/mercadopago/dx-php/src/MercadoPago/Serialization/Serializer.php on line 44.
+ 1 VENDORPATH/mercadopago/dx-php/src/MercadoPago/Serialization/Serializer.php(18): MercadoPago\Serialization\Serializer::_deserializeFromJson('MercadoPago\\Resources\\Preference', [...])
+ 2 VENDORPATH/mercadopago/dx-php/src/MercadoPago/Client/Preference/PreferenceClient.php(41): MercadoPago\Serialization\Serializer::deserializeFromJson('MercadoPago\\Resources\\Preference', [...])
+ 3 APPPATH/Controllers/Checkout.php(29): MercadoPago\Client\Preference\PreferenceClient->create([...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Checkout->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-28 02:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-28 02:18:22 --> [DEPRECATED] Creation of dynamic property MercadoPago\Resources\Preference::$financing_group is deprecated in VENDORPATH/mercadopago/dx-php/src/MercadoPago/Serialization/Serializer.php on line 44.
+ 1 VENDORPATH/mercadopago/dx-php/src/MercadoPago/Serialization/Serializer.php(18): MercadoPago\Serialization\Serializer::_deserializeFromJson('MercadoPago\\Resources\\Preference', [...])
+ 2 VENDORPATH/mercadopago/dx-php/src/MercadoPago/Client/Preference/PreferenceClient.php(41): MercadoPago\Serialization\Serializer::deserializeFromJson('MercadoPago\\Resources\\Preference', [...])
+ 3 APPPATH/Controllers/Checkout.php(31): MercadoPago\Client\Preference\PreferenceClient->create([...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Checkout->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-28 02:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-28 02:18:30 --> [DEPRECATED] Creation of dynamic property MercadoPago\Resources\Preference::$financing_group is deprecated in VENDORPATH/mercadopago/dx-php/src/MercadoPago/Serialization/Serializer.php on line 44.
+ 1 VENDORPATH/mercadopago/dx-php/src/MercadoPago/Serialization/Serializer.php(18): MercadoPago\Serialization\Serializer::_deserializeFromJson('MercadoPago\\Resources\\Preference', [...])
+ 2 VENDORPATH/mercadopago/dx-php/src/MercadoPago/Client/Preference/PreferenceClient.php(41): MercadoPago\Serialization\Serializer::deserializeFromJson('MercadoPago\\Resources\\Preference', [...])
+ 3 APPPATH/Controllers/Checkout.php(30): MercadoPago\Client\Preference\PreferenceClient->create([...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Checkout->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-28 02:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-28 02:18:52 --> [DEPRECATED] Creation of dynamic property MercadoPago\Resources\Preference::$financing_group is deprecated in VENDORPATH/mercadopago/dx-php/src/MercadoPago/Serialization/Serializer.php on line 44.
+ 1 VENDORPATH/mercadopago/dx-php/src/MercadoPago/Serialization/Serializer.php(18): MercadoPago\Serialization\Serializer::_deserializeFromJson('MercadoPago\\Resources\\Preference', [...])
+ 2 VENDORPATH/mercadopago/dx-php/src/MercadoPago/Client/Preference/PreferenceClient.php(41): MercadoPago\Serialization\Serializer::deserializeFromJson('MercadoPago\\Resources\\Preference', [...])
+ 3 APPPATH/Controllers/Checkout.php(30): MercadoPago\Client\Preference\PreferenceClient->create([...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Checkout->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-28 02:20:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-28 02:20:01 --> [DEPRECATED] Creation of dynamic property MercadoPago\Resources\Preference::$financing_group is deprecated in VENDORPATH/mercadopago/dx-php/src/MercadoPago/Serialization/Serializer.php on line 44.
+ 1 VENDORPATH/mercadopago/dx-php/src/MercadoPago/Serialization/Serializer.php(18): MercadoPago\Serialization\Serializer::_deserializeFromJson('MercadoPago\\Resources\\Preference', [...])
+ 2 VENDORPATH/mercadopago/dx-php/src/MercadoPago/Client/Preference/PreferenceClient.php(41): MercadoPago\Serialization\Serializer::deserializeFromJson('MercadoPago\\Resources\\Preference', [...])
+ 3 APPPATH/Controllers/Checkout.php(31): MercadoPago\Client\Preference\PreferenceClient->create([...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Checkout->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-28 02:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-28 02:20:25 --> [DEPRECATED] Creation of dynamic property MercadoPago\Resources\Preference::$financing_group is deprecated in VENDORPATH/mercadopago/dx-php/src/MercadoPago/Serialization/Serializer.php on line 44.
+ 1 VENDORPATH/mercadopago/dx-php/src/MercadoPago/Serialization/Serializer.php(18): MercadoPago\Serialization\Serializer::_deserializeFromJson('MercadoPago\\Resources\\Preference', [...])
+ 2 VENDORPATH/mercadopago/dx-php/src/MercadoPago/Client/Preference/PreferenceClient.php(41): MercadoPago\Serialization\Serializer::deserializeFromJson('MercadoPago\\Resources\\Preference', [...])
+ 3 APPPATH/Controllers/Checkout.php(31): MercadoPago\Client\Preference\PreferenceClient->create([...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Checkout->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-28 02:25:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-28 02:25:09 --> [DEPRECATED] Creation of dynamic property MercadoPago\Resources\Preference::$financing_group is deprecated in VENDORPATH/mercadopago/dx-php/src/MercadoPago/Serialization/Serializer.php on line 44.
+ 1 VENDORPATH/mercadopago/dx-php/src/MercadoPago/Serialization/Serializer.php(18): MercadoPago\Serialization\Serializer::_deserializeFromJson('MercadoPago\\Resources\\Preference', [...])
+ 2 VENDORPATH/mercadopago/dx-php/src/MercadoPago/Client/Preference/PreferenceClient.php(41): MercadoPago\Serialization\Serializer::deserializeFromJson('MercadoPago\\Resources\\Preference', [...])
+ 3 APPPATH/Controllers/Checkout.php(31): MercadoPago\Client\Preference\PreferenceClient->create([...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Checkout->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-28 02:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-28 02:27:15 --> [DEPRECATED] Creation of dynamic property MercadoPago\Resources\Preference::$financing_group is deprecated in VENDORPATH/mercadopago/dx-php/src/MercadoPago/Serialization/Serializer.php on line 44.
+ 1 VENDORPATH/mercadopago/dx-php/src/MercadoPago/Serialization/Serializer.php(18): MercadoPago\Serialization\Serializer::_deserializeFromJson('MercadoPago\\Resources\\Preference', [...])
+ 2 VENDORPATH/mercadopago/dx-php/src/MercadoPago/Client/Preference/PreferenceClient.php(41): MercadoPago\Serialization\Serializer::deserializeFromJson('MercadoPago\\Resources\\Preference', [...])
+ 3 APPPATH/Controllers/Checkout.php(31): MercadoPago\Client\Preference\PreferenceClient->create([...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Checkout->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-28 03:09:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-28 03:09:46 --> [DEPRECATED] Creation of dynamic property MercadoPago\Resources\Preference::$financing_group is deprecated in VENDORPATH/mercadopago/dx-php/src/MercadoPago/Serialization/Serializer.php on line 44.
+ 1 VENDORPATH/mercadopago/dx-php/src/MercadoPago/Serialization/Serializer.php(18): MercadoPago\Serialization\Serializer::_deserializeFromJson('MercadoPago\\Resources\\Preference', [...])
+ 2 VENDORPATH/mercadopago/dx-php/src/MercadoPago/Client/Preference/PreferenceClient.php(41): MercadoPago\Serialization\Serializer::deserializeFromJson('MercadoPago\\Resources\\Preference', [...])
+ 3 APPPATH/Controllers/Checkout.php(30): MercadoPago\Client\Preference\PreferenceClient->create([...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Checkout->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-28 03:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-28 03:11:41 --> [DEPRECATED] Creation of dynamic property MercadoPago\Resources\Preference::$financing_group is deprecated in VENDORPATH/mercadopago/dx-php/src/MercadoPago/Serialization/Serializer.php on line 44.
+ 1 VENDORPATH/mercadopago/dx-php/src/MercadoPago/Serialization/Serializer.php(18): MercadoPago\Serialization\Serializer::_deserializeFromJson('MercadoPago\\Resources\\Preference', [...])
+ 2 VENDORPATH/mercadopago/dx-php/src/MercadoPago/Client/Preference/PreferenceClient.php(41): MercadoPago\Serialization\Serializer::deserializeFromJson('MercadoPago\\Resources\\Preference', [...])
+ 3 APPPATH/Controllers/Checkout.php(30): MercadoPago\Client\Preference\PreferenceClient->create([...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Checkout->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-28 15:04:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-28 15:04:36 --> [DEPRECATED] Creation of dynamic property MercadoPago\Resources\Preference::$financing_group is deprecated in VENDORPATH/mercadopago/dx-php/src/MercadoPago/Serialization/Serializer.php on line 44.
+ 1 VENDORPATH/mercadopago/dx-php/src/MercadoPago/Serialization/Serializer.php(18): MercadoPago\Serialization\Serializer::_deserializeFromJson('MercadoPago\\Resources\\Preference', [...])
+ 2 VENDORPATH/mercadopago/dx-php/src/MercadoPago/Client/Preference/PreferenceClient.php(41): MercadoPago\Serialization\Serializer::deserializeFromJson('MercadoPago\\Resources\\Preference', [...])
+ 3 APPPATH/Controllers/Checkout.php(30): MercadoPago\Client\Preference\PreferenceClient->create([...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Checkout->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-28 16:00:34 --> ErrorException: Cannot redeclare App\Controllers\Home::index()
+[Method: GET, Route: /]
+in APPPATH/Controllers/Home.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 16:01:26 --> Error: Class "Endroid\QrCode\ErrorCorrectionLevel\ErrorCorrectionLevelHigh" not found
+[Method: GET, Route: home/qrcode]
+in APPPATH/Controllers/Home.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->qrcode()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-28 17:17:35 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "payment.php"
+[Method: GET, Route: payment]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('payment.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('payment', [], true)
+ 3 APPPATH/Controllers/Payment.php(10): view('payment')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Payment->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-28 17:27:04 --> ErrorException: Cannot redeclare App\Controllers\Payment::index()
+[Method: GET, Route: payment]
+in APPPATH/Controllers/Payment.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 17:35:14 --> ParseError: syntax error, unexpected token "return"
+[Method: GET, Route: payment]
+in APPPATH/Controllers/Payment.php on line 13.
+ 1 SYSTEMPATH/Router/Router.php(563): CodeIgniter\Router\AutoRouter->getRoute('payment', 'GET')
+ 2 SYSTEMPATH/Router/Router.php(228): CodeIgniter\Router\Router->autoRoute('payment')
+ 3 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('payment')
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-28 17:36:09 --> ErrorException: Undefined variable $title
+[Method: GET, Route: payment]
+in APPPATH/Views/payment.php on line 10.
+ 1 APPPATH/Views/payment.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', '/var/www/html/sistema-contador/app/Views/payment.php', 10)
+ 2 SYSTEMPATH/View/View.php(234): include('/var/www/html/sistema-contador/app/Views/payment.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('payment', [], true)
+ 5 APPPATH/Controllers/Payment.php(16): view('payment', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Payment->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-28 17:39:42 --> ErrorException: Undefined variable $page_url
+[Method: GET, Route: payment]
+in APPPATH/Views/payment.php on line 16.
+ 1 APPPATH/Views/payment.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_url', '/var/www/html/sistema-contador/app/Views/payment.php', 16)
+ 2 SYSTEMPATH/View/View.php(234): include('/var/www/html/sistema-contador/app/Views/payment.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('payment', [], true)
+ 5 APPPATH/Controllers/Payment.php(15): view('payment', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Payment->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-28 17:42:59 --> ErrorException: Undefined variable $page_url
+[Method: GET, Route: payment]
+in APPPATH/Views/payment.php on line 16.
+ 1 APPPATH/Views/payment.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_url', '/var/www/html/sistema-contador/app/Views/payment.php', 16)
+ 2 SYSTEMPATH/View/View.php(234): include('/var/www/html/sistema-contador/app/Views/payment.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('payment', [], true)
+ 5 APPPATH/Controllers/Payment.php(16): view('payment', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Payment->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-28 17:43:34 --> ParseError: syntax error, unexpected token "<", expecting variable or "{" or "$"
+[Method: GET, Route: payment]
+in APPPATH/Views/payment.php on line 13.
+ 1 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('payment', [], true)
+ 3 APPPATH/Controllers/Payment.php(16): view('payment', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Payment->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-28 17:46:27 --> ErrorException: unlink(/var/www/html/sistema-contador/writable/debugbar/debugbar_1727545503.930086.json): No such file or directory
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/sistema-contador/writable/debugbar/debugbar_1727545503.930086.json): No such file or directory', '/var/www/html/sistema-contador/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/sistema-contador/writable/debugbar/debugbar_1727545503.930086.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1727545584.550363', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-28 17:49:58 --> ParseError: syntax error, unexpected identifier "conteudo__chamada"
+[Method: GET, Route: payment]
+in APPPATH/Controllers/Payment.php on line 10.
+ 1 SYSTEMPATH/Router/Router.php(563): CodeIgniter\Router\AutoRouter->getRoute('payment', 'GET')
+ 2 SYSTEMPATH/Router/Router.php(228): CodeIgniter\Router\Router->autoRoute('payment')
+ 3 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('payment')
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-28 17:50:45 --> ParseError: syntax error, unexpected identifier "home"
+[Method: GET, Route: payment]
+in APPPATH/Controllers/Payment.php on line 12.
+ 1 SYSTEMPATH/Router/Router.php(563): CodeIgniter\Router\AutoRouter->getRoute('payment', 'GET')
+ 2 SYSTEMPATH/Router/Router.php(228): CodeIgniter\Router\Router->autoRoute('payment')
+ 3 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('payment')
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-28 17:51:08 --> ErrorException: unlink(/var/www/html/sistema-contador/writable/debugbar/debugbar_1727545760.759499.json): No such file or directory
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/sistema-contador/writable/debugbar/debugbar_1727545760.759499.json): No such file or directory', '/var/www/html/sistema-contador/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/sistema-contador/writable/debugbar/debugbar_1727545760.759499.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1727545867.378949', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-28 18:10:08 --> ParseError: syntax error, unexpected token ";"
+[Method: GET, Route: payment/pending]
+in APPPATH/Views/payment.php on line 25.
+ 1 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('payment', [], true)
+ 3 APPPATH/Controllers/Payment.php(25): view('payment', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Payment->pending()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-28 18:10:09 --> ParseError: syntax error, unexpected token ";"
+[Method: GET, Route: payment/success/]
+in APPPATH/Views/payment.php on line 25.
+ 1 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('payment', [], true)
+ 3 APPPATH/Controllers/Payment.php(14): view('payment', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Payment->success()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-28 18:10:09 --> ParseError: syntax error, unexpected token ";"
+[Method: GET, Route: payment/error]
+in APPPATH/Views/payment.php on line 25.
+ 1 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('payment', [], true)
+ 3 APPPATH/Controllers/Payment.php(36): view('payment', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Payment->error()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-28 18:10:48 --> ParseError: Unclosed '{' on line 19
+[Method: GET, Route: payment/pending]
+in APPPATH/Views/payment.php on line 35.
+ 1 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('payment', [], true)
+ 3 APPPATH/Controllers/Payment.php(25): view('payment', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Payment->pending()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-28 18:10:48 --> ParseError: Unclosed '{' on line 19
+[Method: GET, Route: payment/error]
+in APPPATH/Views/payment.php on line 35.
+ 1 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('payment', [], true)
+ 3 APPPATH/Controllers/Payment.php(36): view('payment', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Payment->error()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-28 18:15:01 --> TypeError: CodeIgniter\Language\Language::requireFile(): Return value must be of type array, int returned
+[Method: GET, Route: payment/pending]
+in SYSTEMPATH/Language/Language.php on line 297.
+ 1 SYSTEMPATH/Language/Language.php(258): CodeIgniter\Language\Language->requireFile('Language/en/payment.php')
+ 2 SYSTEMPATH/Language/Language.php(168): CodeIgniter\Language\Language->load('payment', 'en')
+ 3 SYSTEMPATH/Language/Language.php(103): CodeIgniter\Language\Language->parseLine('pending.title', 'en')
+ 4 SYSTEMPATH/Common.php(746): CodeIgniter\Language\Language->getLine('payment.pending.title', [])
+ 5 APPPATH/Controllers/Payment.php(19): lang('payment.pending.title')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Payment->pending()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-28 18:15:01 --> TypeError: CodeIgniter\Language\Language::requireFile(): Return value must be of type array, int returned
+[Method: GET, Route: payment/success/]
+in SYSTEMPATH/Language/Language.php on line 297.
+ 1 SYSTEMPATH/Language/Language.php(258): CodeIgniter\Language\Language->requireFile('Language/en/payment.php')
+ 2 SYSTEMPATH/Language/Language.php(168): CodeIgniter\Language\Language->load('payment', 'en')
+ 3 SYSTEMPATH/Language/Language.php(103): CodeIgniter\Language\Language->parseLine('success.title', 'en')
+ 4 SYSTEMPATH/Common.php(746): CodeIgniter\Language\Language->getLine('payment.success.title', [])
+ 5 APPPATH/Controllers/Payment.php(8): lang('payment.success.title')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Payment->success()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-28 18:15:01 --> TypeError: CodeIgniter\Language\Language::requireFile(): Return value must be of type array, int returned
+[Method: GET, Route: payment/error]
+in SYSTEMPATH/Language/Language.php on line 297.
+ 1 SYSTEMPATH/Language/Language.php(258): CodeIgniter\Language\Language->requireFile('Language/en/payment.php')
+ 2 SYSTEMPATH/Language/Language.php(168): CodeIgniter\Language\Language->load('payment', 'en')
+ 3 SYSTEMPATH/Language/Language.php(103): CodeIgniter\Language\Language->parseLine('error.title', 'en')
+ 4 SYSTEMPATH/Common.php(746): CodeIgniter\Language\Language->getLine('payment.error.title', [])
+ 5 APPPATH/Controllers/Payment.php(30): lang('payment.error.title')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Payment->error()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-28 18:22:18 --> ErrorException: unlink(/var/www/html/sistema-contador/writable/debugbar/debugbar_1727547604.322574.json): No such file or directory
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/sistema-contador/writable/debugbar/debugbar_1727547604.322574.json): No such file or directory', '/var/www/html/sistema-contador/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/sistema-contador/writable/debugbar/debugbar_1727547604.322574.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1727547736.252741', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-28 18:25:27 --> ErrorException: unlink(/var/www/html/sistema-contador/writable/debugbar/debugbar_1727547736.534214.json): No such file or directory
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/sistema-contador/writable/debugbar/debugbar_1727547736.534214.json): No such file or directory', '/var/www/html/sistema-contador/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/sistema-contador/writable/debugbar/debugbar_1727547736.534214.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1727547925.662873', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-28 18:25:29 --> ErrorException: unlink(/var/www/html/sistema-contador/writable/debugbar/debugbar_1727547747.652078.json): No such file or directory
+[Method: GET, Route: /]
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/var/www/html/sistema-contador/writable/debugbar/debugbar_1727547747.652078.json): No such file or directory', '/var/www/html/sistema-contador/system/Debug/Toolbar/Collectors/History.php', 82)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(82): unlink('/var/www/html/sistema-contador/writable/debugbar/debugbar_1727547747.652078.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1727547927.638462', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-28 18:43:53 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "view.php"
+[Method: GET, Route: view]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('view', [], true)
+ 3 APPPATH/Controllers/View.php(9): view('view')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\View->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-28 18:46:54 --> ArgumentCountError: Too few arguments to function App\Controllers\View::index(), 0 passed in /var/www/html/sistema-contador/system/CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: view]
+in APPPATH/Controllers/View.php on line 7.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\View->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-28 18:47:30 --> ArgumentCountError: Too few arguments to function App\Controllers\View::index(), 0 passed in /var/www/html/sistema-contador/system/CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: view/12313]
+in APPPATH/Controllers/View.php on line 7.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\View->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-28 18:53:19 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "_menu-interno.php"
+[Method: GET, Route: view/12313]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('_menu-interno.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('_menu-interno', [], true)
+ 3 APPPATH/Views/view.php(2): view('_menu-interno')
+ 4 SYSTEMPATH/View/View.php(234): include('/var/www/html/sistema-contador/app/Views/view.php')
+ 5 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('view', [], true)
+ 7 APPPATH/Controllers/View.php(9): view('view')
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\View->index('12313')
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-28 18:53:23 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "_menu-interno.php"
+[Method: GET, Route: view/12313]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('_menu-interno.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('_menu-interno', [], true)
+ 3 APPPATH/Views/view.php(2): view('_menu-interno')
+ 4 SYSTEMPATH/View/View.php(234): include('/var/www/html/sistema-contador/app/Views/view.php')
+ 5 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('view', [], true)
+ 7 APPPATH/Controllers/View.php(9): view('view')
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\View->index('12313')
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
