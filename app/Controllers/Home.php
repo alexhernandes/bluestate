@@ -24,14 +24,6 @@ class Home extends BaseController
             $request->setLocale($locale);
         }
 
-        echo '<h2>Informações do Servidor</h2>';
-        echo '<ul>';
-        echo '<li>Versão do PHP: ' . phpversion() . '</li>';
-        echo '<li>Software do Servidor: ' . $_SERVER['SERVER_SOFTWARE'] . '</li>';
-        echo '<li>Endereço IP: ' . $_SERVER['SERVER_ADDR'] . '</li>';
-        echo '<li>Nome do Host: ' . gethostname() . '</li>';
-        echo '</ul>';
-
         $session->set('site_title', lang('Home.site_title'));
         $session->set('site_description', lang('Home.site_description'));
 

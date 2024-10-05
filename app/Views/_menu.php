@@ -28,6 +28,11 @@
                     <div class="topo__conta">
                         <ul>
                             <li>
+                                <a href="<?php echo base_url(); ?>page">
+                                    Paginas
+                                </a>
+                            </li>
+                            <li>
                                 <a href="<?php echo base_url(); ?>account">
                                     <?php echo lang('Home.menu.account'); ?>
                                 </a>
