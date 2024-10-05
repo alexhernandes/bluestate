@@ -15,8 +15,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
-    <link href="<?php echo base_url(); ?>assets/css/styles.css" rel="stylesheet">
-    <link href="<?php echo base_url(); ?>assets/css/styles_media.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>css/styles.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>css/styles_media.css" rel="stylesheet">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
